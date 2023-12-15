@@ -1,0 +1,439 @@
+{
+  "Configuration" : {
+    "ArchDir" : "/opt/tapasco/vivado/arch",
+    "PlatformDir" : "/opt/tapasco/vivado/platform",
+    "KernelDir" : ".",
+    "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+    "CompositionDir" : ".",
+    "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd",
+    "Slurm" : false,
+    "Parallel" : true,
+    "Jobs" : [ {
+      "Job" : "DesignSpaceExploration",
+      "Initial Composition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "Heuristic" : "Job Throughput",
+      "Batch Size" : 5,
+      "Output Path" : ".",
+      "Platforms" : [ "vcu118" ]
+    } ]
+  },
+  "Events" : [ {
+    "Timestamp" : "2023-12-04T23:55:27.586204",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 49406,
+          "LUTs" : 314658,
+          "FlipFlops" : 473833,
+          "DSPs" : 582,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-04T23:55:27.587109",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 49406,
+          "LUTs" : 314658,
+          "FlipFlops" : 473833,
+          "DSPs" : 582,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-04T23:55:27.58742",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 49406,
+          "LUTs" : 314658,
+          "FlipFlops" : 473833,
+          "DSPs" : 582,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-04T23:55:27.587602",
+    "Event" : {
+      "Kind" : "ExplorationStarted",
+      "Initial Composition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Target" : {
+        "Architecture" : "axi4mm",
+        "Platform" : "vcu118"
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "BatchSize" : 5,
+      "Configuration" : {
+        "ArchDir" : "/opt/tapasco/vivado/arch",
+        "PlatformDir" : "/opt/tapasco/vivado/platform",
+        "KernelDir" : ".",
+        "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+        "CompositionDir" : ".",
+        "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd",
+        "Slurm" : false,
+        "Parallel" : true,
+        "Jobs" : [ {
+          "Job" : "DesignSpaceExploration",
+          "Initial Composition" : {
+            "Composition" : [ {
+              "Kernel" : "tlf",
+              "Count" : 1
+            } ]
+          },
+          "Dimensions" : {
+            "Frequency" : true,
+            "Utilization" : false,
+            "Alternatives" : false
+          },
+          "Heuristic" : "Job Throughput",
+          "Batch Size" : 5,
+          "Output Path" : ".",
+          "Platforms" : [ "vcu118" ]
+        } ]
+      },
+      "Base Path" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/."
+    }
+  }, {
+    "Timestamp" : "2023-12-04T23:55:27.589148",
+    "Event" : {
+      "Kind" : "BatchStarted",
+      "Number" : 0,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-12-04T23:55:27.593935",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-04T23:55:27.594667",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-04T23:55:27.595072",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-05T04:11:34.422869",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/axi4mm-vcu118--tlf_1--050.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/axi4mm-vcu118--tlf_1--050.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-05T04:18:58.443556",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/axi4mm-vcu118--tlf_1--055.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/axi4mm-vcu118--tlf_1--055.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-05T04:26:23.07508",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/axi4mm-vcu118--tlf_1--060.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/axi4mm-vcu118--tlf_1--060.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-05T04:26:23.077779",
+    "Event" : {
+      "Kind" : "BatchFinished",
+      "Number" : 0,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      } ],
+      "Results" : [ {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/axi4mm-vcu118--tlf_1--060.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/axi4mm-vcu118--tlf_1--060.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/axi4mm-vcu118--tlf_1--055.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/axi4mm-vcu118--tlf_1--055.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/055.0/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/axi4mm-vcu118--tlf_1--050.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/axi4mm-vcu118--tlf_1--050.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/050.0/timing.txt"
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-12-05T04:26:23.079285",
+    "Event" : {
+      "Kind" : "ExplorationFinished",
+      "InitialComposition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Target" : {
+        "Architecture" : "axi4mm",
+        "Platform" : "vcu118"
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "BatchSize" : 5,
+      "Configuration" : {
+        "ArchDir" : "/opt/tapasco/vivado/arch",
+        "PlatformDir" : "/opt/tapasco/vivado/platform",
+        "KernelDir" : ".",
+        "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+        "CompositionDir" : ".",
+        "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd",
+        "Slurm" : false,
+        "Parallel" : true,
+        "Jobs" : [ {
+          "Job" : "DesignSpaceExploration",
+          "Initial Composition" : {
+            "Composition" : [ {
+              "Kernel" : "tlf",
+              "Count" : 1
+            } ]
+          },
+          "Dimensions" : {
+            "Frequency" : true,
+            "Utilization" : false,
+            "Alternatives" : false
+          },
+          "Heuristic" : "Job Throughput",
+          "Batch Size" : 5,
+          "Output Path" : ".",
+          "Platforms" : [ "vcu118" ]
+        } ]
+      },
+      "Base Path" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/.",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/axi4mm-vcu118--tlf_1--060.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/axi4mm-vcu118--tlf_1--060.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_defaultBS/adept_3d27p/./bd/axi4mm/vcu118/tlf/001/060.0/timing.txt"
+      }
+    }
+  } ]
+}

@@ -1,0 +1,9 @@
+[
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_defaultBS/adept_scalar_mult/input.cpp:34:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 43926},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_defaultBS/adept_scalar_mult/input.cpp:34:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 127838},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_defaultBS/adept_scalar_mult/input.cpp:34:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 42592},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_defaultBS/adept_scalar_mult/input.cpp:34:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 43871},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_defaultBS/adept_scalar_mult/input.cpp:34:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 127833},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_defaultBS/adept_scalar_mult/input.cpp:34:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 42549},
+{"file": "./hostBinary", "description": "Whole program execution timing", "type": "Whole", "devid": -1, "runtimeInSec": 1, "runtimeUsec": 392147},
+{}]

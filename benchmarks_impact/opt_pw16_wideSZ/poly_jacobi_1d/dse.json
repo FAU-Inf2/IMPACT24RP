@@ -1,0 +1,2327 @@
+{
+  "Configuration" : {
+    "ArchDir" : "/opt/tapasco/vivado/arch",
+    "PlatformDir" : "/opt/tapasco/vivado/platform",
+    "KernelDir" : ".",
+    "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+    "CompositionDir" : ".",
+    "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd",
+    "Slurm" : false,
+    "Parallel" : true,
+    "Jobs" : [ {
+      "Job" : "DesignSpaceExploration",
+      "Initial Composition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "Heuristic" : "Job Throughput",
+      "Batch Size" : 5,
+      "Output Path" : ".",
+      "Platforms" : [ "vcu118" ]
+    } ]
+  },
+  "Events" : [ {
+    "Timestamp" : "2023-11-30T16:51:32.841968",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.842953",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.843326",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.843437",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.843534",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.843634",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.843734",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.843918",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 115,
+        "HeuristicValue" : 115000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844031",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 110,
+        "HeuristicValue" : 110000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844142",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 105,
+        "HeuristicValue" : 105000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844267",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 100,
+        "HeuristicValue" : 100000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844375",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 95,
+        "HeuristicValue" : 95000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844489",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 90,
+        "HeuristicValue" : 90000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844603",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 85,
+        "HeuristicValue" : 85000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844737",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 80,
+        "HeuristicValue" : 80000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.844864",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 75,
+        "HeuristicValue" : 75000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.845",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 70,
+        "HeuristicValue" : 70000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.845133",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 65,
+        "HeuristicValue" : 65000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.845266",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.845401",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.845599",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.845799",
+    "Event" : {
+      "Kind" : "ExplorationStarted",
+      "Initial Composition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Target" : {
+        "Architecture" : "axi4mm",
+        "Platform" : "vcu118"
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "BatchSize" : 5,
+      "Configuration" : {
+        "ArchDir" : "/opt/tapasco/vivado/arch",
+        "PlatformDir" : "/opt/tapasco/vivado/platform",
+        "KernelDir" : ".",
+        "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+        "CompositionDir" : ".",
+        "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd",
+        "Slurm" : false,
+        "Parallel" : true,
+        "Jobs" : [ {
+          "Job" : "DesignSpaceExploration",
+          "Initial Composition" : {
+            "Composition" : [ {
+              "Kernel" : "tlf",
+              "Count" : 1
+            } ]
+          },
+          "Dimensions" : {
+            "Frequency" : true,
+            "Utilization" : false,
+            "Alternatives" : false
+          },
+          "Heuristic" : "Job Throughput",
+          "Batch Size" : 5,
+          "Output Path" : ".",
+          "Platforms" : [ "vcu118" ]
+        } ]
+      },
+      "Base Path" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/."
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.847574",
+    "Event" : {
+      "Kind" : "BatchStarted",
+      "Number" : 0,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.852579",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.853298",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.853826",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.854155",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T16:51:32.854504",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T19:50:38.712633",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      },
+      "Result" : {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/axi4mm-vcu118--tlf_1--145.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/axi4mm-vcu118--tlf_1--145.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T19:55:18.495752",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      },
+      "Result" : {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/axi4mm-vcu118--tlf_1--130.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/axi4mm-vcu118--tlf_1--130.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:01:00.095011",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      },
+      "Result" : {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/axi4mm-vcu118--tlf_1--135.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/axi4mm-vcu118--tlf_1--135.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:06:00.706224",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      },
+      "Result" : {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/axi4mm-vcu118--tlf_1--150.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/axi4mm-vcu118--tlf_1--150.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.384375",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      },
+      "Result" : {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/axi4mm-vcu118--tlf_1--140.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/axi4mm-vcu118--tlf_1--140.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.387379",
+    "Event" : {
+      "Kind" : "BatchFinished",
+      "Number" : 0,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      } ],
+      "Results" : [ {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/axi4mm-vcu118--tlf_1--150.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/axi4mm-vcu118--tlf_1--150.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/150.0/timing.txt"
+      }, {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/axi4mm-vcu118--tlf_1--145.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/axi4mm-vcu118--tlf_1--145.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/145.0/timing.txt"
+      }, {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/axi4mm-vcu118--tlf_1--140.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/axi4mm-vcu118--tlf_1--140.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/140.0/timing.txt"
+      }, {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/axi4mm-vcu118--tlf_1--135.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/axi4mm-vcu118--tlf_1--135.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/135.0/timing.txt"
+      }, {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/axi4mm-vcu118--tlf_1--130.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/axi4mm-vcu118--tlf_1--130.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/130.0/timing.txt"
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.425744",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 131.1876858492216,
+        "HeuristicValue" : 131187685.84922159
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.425795",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 132.56608664912213,
+        "HeuristicValue" : 132566086.64912213
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.425821",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.04879763746307,
+        "HeuristicValue" : 123048797.63746308
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.425853",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120.67745828305105,
+        "HeuristicValue" : 120677458.28305107
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.425877",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 128.1672089125505,
+        "HeuristicValue" : 128167208.91255051
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.456571",
+    "Event" : {
+      "Kind" : "RunPruned",
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 132.56608664912213,
+        "HeuristicValue" : 132566086.64912213
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 131.1876858492216,
+        "HeuristicValue" : 131187685.84922159
+      } ],
+      "Cause" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      },
+      "Reason" : "FrequencyPrune"
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.457131",
+    "Event" : {
+      "Kind" : "BatchStarted",
+      "Number" : 1,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 128.1672089125505,
+        "HeuristicValue" : 128167208.91255051
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.04879763746307,
+        "HeuristicValue" : 123048797.63746308
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120.67745828305105,
+        "HeuristicValue" : 120677458.28305107
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.457732",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 128.1672089125505,
+        "HeuristicValue" : 128167208.91255051
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.458568",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.459179",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.04879763746307,
+        "HeuristicValue" : 123048797.63746308
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.459692",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120.67745828305105,
+        "HeuristicValue" : 120677458.28305107
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T20:38:54.460321",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:24:12.588885",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/axi4mm-vcu118--tlf_1--120.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/axi4mm-vcu118--tlf_1--120.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:30:10.424526",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120.67745828305105,
+        "HeuristicValue" : 120677458.28305107
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/axi4mm-vcu118--tlf_1--120.7.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/axi4mm-vcu118--tlf_1--120.7.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:33:44.748752",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.04879763746307,
+        "HeuristicValue" : 123048797.63746308
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/axi4mm-vcu118--tlf_1--123.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/axi4mm-vcu118--tlf_1--123.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:40:18.769091",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      },
+      "Result" : {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/axi4mm-vcu118--tlf_1--125.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/axi4mm-vcu118--tlf_1--125.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.921277",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 128.1672089125505,
+        "HeuristicValue" : 128167208.91255051
+      },
+      "Result" : {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/axi4mm-vcu118--tlf_1--128.2.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/axi4mm-vcu118--tlf_1--128.2.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.92157",
+    "Event" : {
+      "Kind" : "BatchFinished",
+      "Number" : 1,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 128.1672089125505,
+        "HeuristicValue" : 128167208.91255051
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.04879763746307,
+        "HeuristicValue" : 123048797.63746308
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120.67745828305105,
+        "HeuristicValue" : 120677458.28305107
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      } ],
+      "Results" : [ {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/axi4mm-vcu118--tlf_1--128.2.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/axi4mm-vcu118--tlf_1--128.2.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/128.2/timing.txt"
+      }, {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/axi4mm-vcu118--tlf_1--125.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/axi4mm-vcu118--tlf_1--125.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/125.0/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/axi4mm-vcu118--tlf_1--123.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/axi4mm-vcu118--tlf_1--123.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.0/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/axi4mm-vcu118--tlf_1--120.7.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/axi4mm-vcu118--tlf_1--120.7.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.7/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/axi4mm-vcu118--tlf_1--120.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/axi4mm-vcu118--tlf_1--120.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/120.0/timing.txt"
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.924175",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.31508902400849,
+        "HeuristicValue" : 123315089.02400847
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 128.1672089125505,
+        "HeuristicValue" : 128167208.91255051
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.924229",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 124.08487405385284,
+        "HeuristicValue" : 124084874.05385284
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 42222,
+          "LUTs" : 123984,
+          "FlipFlops" : 218022,
+          "DSPs" : 168,
+          "BRAM" : 16
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.935604",
+    "Event" : {
+      "Kind" : "RunPruned",
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 115,
+        "HeuristicValue" : 115000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 110,
+        "HeuristicValue" : 110000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 90,
+        "HeuristicValue" : 90000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 80,
+        "HeuristicValue" : 80000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 100,
+        "HeuristicValue" : 100000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 105,
+        "HeuristicValue" : 105000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 85,
+        "HeuristicValue" : 85000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 70,
+        "HeuristicValue" : 70000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 65,
+        "HeuristicValue" : 65000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 75,
+        "HeuristicValue" : 75000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 95,
+        "HeuristicValue" : 95000000
+      } ],
+      "Cause" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.04879763746307,
+        "HeuristicValue" : 123048797.63746308
+      },
+      "Reason" : "WorseThanPrune"
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.935621",
+    "Event" : {
+      "Kind" : "RunPruned",
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 115,
+        "HeuristicValue" : 115000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 110,
+        "HeuristicValue" : 110000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 90,
+        "HeuristicValue" : 90000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 80,
+        "HeuristicValue" : 80000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 100,
+        "HeuristicValue" : 100000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 105,
+        "HeuristicValue" : 105000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 85,
+        "HeuristicValue" : 85000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 70,
+        "HeuristicValue" : 70000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 65,
+        "HeuristicValue" : 65000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 75,
+        "HeuristicValue" : 75000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 95,
+        "HeuristicValue" : 95000000
+      } ],
+      "Cause" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      },
+      "Reason" : "WorseThanPrune"
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.935633",
+    "Event" : {
+      "Kind" : "RunPruned",
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 115,
+        "HeuristicValue" : 115000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 110,
+        "HeuristicValue" : 110000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 90,
+        "HeuristicValue" : 90000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 80,
+        "HeuristicValue" : 80000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 100,
+        "HeuristicValue" : 100000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 105,
+        "HeuristicValue" : 105000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 85,
+        "HeuristicValue" : 85000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 70,
+        "HeuristicValue" : 70000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 65,
+        "HeuristicValue" : 65000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 75,
+        "HeuristicValue" : 75000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 95,
+        "HeuristicValue" : 95000000
+      } ],
+      "Cause" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120.67745828305105,
+        "HeuristicValue" : 120677458.28305107
+      },
+      "Reason" : "WorseThanPrune"
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.935944",
+    "Event" : {
+      "Kind" : "BatchStarted",
+      "Number" : 2,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 124.08487405385284,
+        "HeuristicValue" : 124084874.05385284
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.31508902400849,
+        "HeuristicValue" : 123315089.02400847
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.936438",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 124.08487405385284,
+        "HeuristicValue" : 124084874.05385284
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-30T23:53:05.937151",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.31508902400849,
+        "HeuristicValue" : 123315089.02400847
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-01T02:28:48.640304",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.31508902400849,
+        "HeuristicValue" : 123315089.02400847
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/axi4mm-vcu118--tlf_1--123.3.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/axi4mm-vcu118--tlf_1--123.3.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-01T02:44:59.504259",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 124.08487405385284,
+        "HeuristicValue" : 124084874.05385284
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/axi4mm-vcu118--tlf_1--124.1.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/axi4mm-vcu118--tlf_1--124.1.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-12-01T02:44:59.504459",
+    "Event" : {
+      "Kind" : "BatchFinished",
+      "Number" : 2,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 124.08487405385284,
+        "HeuristicValue" : 124084874.05385284
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 123.31508902400849,
+        "HeuristicValue" : 123315089.02400847
+      } ],
+      "Results" : [ {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/axi4mm-vcu118--tlf_1--124.1.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/axi4mm-vcu118--tlf_1--124.1.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/axi4mm-vcu118--tlf_1--123.3.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/axi4mm-vcu118--tlf_1--123.3.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/123.3/timing.txt"
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-12-01T02:44:59.52054",
+    "Event" : {
+      "Kind" : "ExplorationFinished",
+      "InitialComposition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Target" : {
+        "Architecture" : "axi4mm",
+        "Platform" : "vcu118"
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "BatchSize" : 5,
+      "Configuration" : {
+        "ArchDir" : "/opt/tapasco/vivado/arch",
+        "PlatformDir" : "/opt/tapasco/vivado/platform",
+        "KernelDir" : ".",
+        "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+        "CompositionDir" : ".",
+        "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd",
+        "Slurm" : false,
+        "Parallel" : true,
+        "Jobs" : [ {
+          "Job" : "DesignSpaceExploration",
+          "Initial Composition" : {
+            "Composition" : [ {
+              "Kernel" : "tlf",
+              "Count" : 1
+            } ]
+          },
+          "Dimensions" : {
+            "Frequency" : true,
+            "Utilization" : false,
+            "Alternatives" : false
+          },
+          "Heuristic" : "Job Throughput",
+          "Batch Size" : 5,
+          "Output Path" : ".",
+          "Platforms" : [ "vcu118" ]
+        } ]
+      },
+      "Base Path" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/.",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 124.08487405385284,
+        "HeuristicValue" : 124084874.05385284
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/axi4mm-vcu118--tlf_1--124.1.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/axi4mm-vcu118--tlf_1--124.1.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_jacobi_1d/./bd/axi4mm/vcu118/tlf/001/124.1/timing.txt"
+      }
+    }
+  } ]
+}

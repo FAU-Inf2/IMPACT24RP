@@ -1,0 +1,9 @@
+[
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_heat_3d/input.cpp:62:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87738},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_heat_3d/input.cpp:62:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 13, "runtimeUsec": 398},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_heat_3d/input.cpp:62:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85004},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_heat_3d/input.cpp:62:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87747},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_heat_3d/input.cpp:62:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 13, "runtimeUsec": 390},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_heat_3d/input.cpp:62:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85019},
+{"file": "./hostBinary", "description": "Whole program execution timing", "type": "Whole", "devid": -1, "runtimeInSec": 36, "runtimeUsec": 618495},
+{}]

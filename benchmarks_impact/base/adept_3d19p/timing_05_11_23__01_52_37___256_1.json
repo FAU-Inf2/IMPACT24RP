@@ -1,0 +1,9 @@
+[
+{"file": "/home/build/synthBin/benchmarks_impact/base/adept_3d19p/input.cpp:62:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 91154},
+{"file": "/home/build/synthBin/benchmarks_impact/base/adept_3d19p/input.cpp:62:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 32, "runtimeUsec": 207202},
+{"file": "/home/build/synthBin/benchmarks_impact/base/adept_3d19p/input.cpp:62:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85026},
+{"file": "/home/build/synthBin/benchmarks_impact/base/adept_3d19p/input.cpp:62:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87802},
+{"file": "/home/build/synthBin/benchmarks_impact/base/adept_3d19p/input.cpp:62:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 32, "runtimeUsec": 207270},
+{"file": "/home/build/synthBin/benchmarks_impact/base/adept_3d19p/input.cpp:62:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85026},
+{"file": "./hostBinary", "description": "Whole program execution timing", "type": "Whole", "devid": -1, "runtimeInSec": 75, "runtimeUsec": 785731},
+{}]

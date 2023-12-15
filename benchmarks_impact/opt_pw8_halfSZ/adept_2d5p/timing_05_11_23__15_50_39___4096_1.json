@@ -1,0 +1,9 @@
+[
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_halfBS/adept_2d5p/input.cpp:38:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87720},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_halfBS/adept_2d5p/input.cpp:38:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 374325},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_halfBS/adept_2d5p/input.cpp:38:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85257},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_halfBS/adept_2d5p/input.cpp:38:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87743},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_halfBS/adept_2d5p/input.cpp:38:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 374319},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al8_halfBS/adept_2d5p/input.cpp:38:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85035},
+{"file": "./hostBinary", "description": "Whole program execution timing", "type": "Whole", "devid": -1, "runtimeInSec": 3, "runtimeUsec": 45688},
+{}]

@@ -1,0 +1,9 @@
+[
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_defaultBS/adept_axpy/input.cpp:38:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87753},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_defaultBS/adept_axpy/input.cpp:38:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 351476},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_defaultBS/adept_axpy/input.cpp:38:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 84966},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_defaultBS/adept_axpy/input.cpp:38:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87768},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_defaultBS/adept_axpy/input.cpp:38:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 351470},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_defaultBS/adept_axpy/input.cpp:38:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 84961},
+{"file": "./hostBinary", "description": "Whole program execution timing", "type": "Whole", "devid": -1, "runtimeInSec": 2, "runtimeUsec": 899995},
+{}]

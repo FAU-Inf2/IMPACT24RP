@@ -1,0 +1,3595 @@
+{
+  "Configuration" : {
+    "ArchDir" : "/opt/tapasco/vivado/arch",
+    "PlatformDir" : "/opt/tapasco/vivado/platform",
+    "KernelDir" : ".",
+    "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+    "CompositionDir" : ".",
+    "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd",
+    "Slurm" : false,
+    "Parallel" : true,
+    "Jobs" : [ {
+      "Job" : "DesignSpaceExploration",
+      "Initial Composition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "Heuristic" : "Job Throughput",
+      "Batch Size" : 5,
+      "Output Path" : ".",
+      "Platforms" : [ "vcu118" ]
+    } ]
+  },
+  "Events" : [ {
+    "Timestamp" : "2023-11-26T22:54:33.929885",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 350,
+        "HeuristicValue" : 350000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.931241",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 345,
+        "HeuristicValue" : 345000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.931688",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 340,
+        "HeuristicValue" : 340000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.931857",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 335,
+        "HeuristicValue" : 335000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.932008",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 330,
+        "HeuristicValue" : 330000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.932172",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 325,
+        "HeuristicValue" : 325000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.932332",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 320,
+        "HeuristicValue" : 320000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.932514",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 315,
+        "HeuristicValue" : 315000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.932678",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 310,
+        "HeuristicValue" : 310000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.932911",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 305,
+        "HeuristicValue" : 305000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.933093",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 300,
+        "HeuristicValue" : 300000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.933272",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 295,
+        "HeuristicValue" : 295000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.933469",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 290,
+        "HeuristicValue" : 290000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.933668",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 285,
+        "HeuristicValue" : 285000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.933924",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 280,
+        "HeuristicValue" : 280000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.934125",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 275,
+        "HeuristicValue" : 275000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.93431",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 270,
+        "HeuristicValue" : 270000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.934487",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 265,
+        "HeuristicValue" : 265000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.93466",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 260,
+        "HeuristicValue" : 260000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.934822",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 255,
+        "HeuristicValue" : 255000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.934975",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 250,
+        "HeuristicValue" : 249999999.99999997
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.935138",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 245,
+        "HeuristicValue" : 245000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.935287",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 240,
+        "HeuristicValue" : 240000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.935421",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 235,
+        "HeuristicValue" : 235000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.935542",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 230,
+        "HeuristicValue" : 230000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.935666",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 225,
+        "HeuristicValue" : 225000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.935783",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 220,
+        "HeuristicValue" : 220000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.935903",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 215,
+        "HeuristicValue" : 215000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.936038",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 210,
+        "HeuristicValue" : 210000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.936154",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 205,
+        "HeuristicValue" : 205000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.936352",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 200,
+        "HeuristicValue" : 200000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.936454",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 195,
+        "HeuristicValue" : 195000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.936582",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 190,
+        "HeuristicValue" : 190000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.936687",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 185,
+        "HeuristicValue" : 185000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.936794",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 180,
+        "HeuristicValue" : 180000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.9369",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 175,
+        "HeuristicValue" : 175000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937004",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 170,
+        "HeuristicValue" : 170000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937112",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 165,
+        "HeuristicValue" : 165000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937207",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 160,
+        "HeuristicValue" : 160000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937314",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 155,
+        "HeuristicValue" : 155000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937415",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937506",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.9376",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937695",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937789",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937879",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.937977",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938071",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 115,
+        "HeuristicValue" : 115000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938169",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 110,
+        "HeuristicValue" : 110000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938265",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 105,
+        "HeuristicValue" : 105000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938382",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 100,
+        "HeuristicValue" : 100000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938478",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 95,
+        "HeuristicValue" : 95000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938574",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 90,
+        "HeuristicValue" : 90000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938663",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 85,
+        "HeuristicValue" : 85000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938733",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 80,
+        "HeuristicValue" : 80000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938792",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 75,
+        "HeuristicValue" : 75000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938858",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 70,
+        "HeuristicValue" : 70000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.938923",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 65,
+        "HeuristicValue" : 65000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.939017",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.939091",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.939154",
+    "Event" : {
+      "Kind" : "RunDefined",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.939373",
+    "Event" : {
+      "Kind" : "ExplorationStarted",
+      "Initial Composition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Target" : {
+        "Architecture" : "axi4mm",
+        "Platform" : "vcu118"
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "BatchSize" : 5,
+      "Configuration" : {
+        "ArchDir" : "/opt/tapasco/vivado/arch",
+        "PlatformDir" : "/opt/tapasco/vivado/platform",
+        "KernelDir" : ".",
+        "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+        "CompositionDir" : ".",
+        "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd",
+        "Slurm" : false,
+        "Parallel" : true,
+        "Jobs" : [ {
+          "Job" : "DesignSpaceExploration",
+          "Initial Composition" : {
+            "Composition" : [ {
+              "Kernel" : "tlf",
+              "Count" : 1
+            } ]
+          },
+          "Dimensions" : {
+            "Frequency" : true,
+            "Utilization" : false,
+            "Alternatives" : false
+          },
+          "Heuristic" : "Job Throughput",
+          "Batch Size" : 5,
+          "Output Path" : ".",
+          "Platforms" : [ "vcu118" ]
+        } ]
+      },
+      "Base Path" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/."
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.941087",
+    "Event" : {
+      "Kind" : "BatchStarted",
+      "Number" : 0,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 350,
+        "HeuristicValue" : 350000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 345,
+        "HeuristicValue" : 345000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 340,
+        "HeuristicValue" : 340000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 335,
+        "HeuristicValue" : 335000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 330,
+        "HeuristicValue" : 330000000
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.946303",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 350,
+        "HeuristicValue" : 350000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.947045",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 345,
+        "HeuristicValue" : 345000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.947477",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 340,
+        "HeuristicValue" : 340000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.947854",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 335,
+        "HeuristicValue" : 335000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-26T22:54:33.948177",
+    "Event" : {
+      "Kind" : "RunStarted",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 330,
+        "HeuristicValue" : 330000000
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T00:51:41.233334",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 335,
+        "HeuristicValue" : 335000000
+      },
+      "Result" : {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/axi4mm-vcu118--tlf_1--335.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/axi4mm-vcu118--tlf_1--335.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T00:54:40.037655",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 330,
+        "HeuristicValue" : 330000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/axi4mm-vcu118--tlf_1--330.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/axi4mm-vcu118--tlf_1--330.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T01:10:05.028418",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 345,
+        "HeuristicValue" : 345000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/axi4mm-vcu118--tlf_1--345.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/axi4mm-vcu118--tlf_1--345.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T01:12:54.439671",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 340,
+        "HeuristicValue" : 340000000
+      },
+      "Result" : {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/axi4mm-vcu118--tlf_1--340.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/axi4mm-vcu118--tlf_1--340.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.002606",
+    "Event" : {
+      "Kind" : "RunFinished",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 350,
+        "HeuristicValue" : 350000000
+      },
+      "Result" : {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/axi4mm-vcu118--tlf_1--350.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/axi4mm-vcu118--tlf_1--350.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/timing.txt"
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.005664",
+    "Event" : {
+      "Kind" : "BatchFinished",
+      "Number" : 0,
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 350,
+        "HeuristicValue" : 350000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 345,
+        "HeuristicValue" : 345000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 340,
+        "HeuristicValue" : 340000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 335,
+        "HeuristicValue" : 335000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 330,
+        "HeuristicValue" : 330000000
+      } ],
+      "Results" : [ {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/axi4mm-vcu118--tlf_1--350.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/axi4mm-vcu118--tlf_1--350.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/350.0/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/axi4mm-vcu118--tlf_1--345.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/axi4mm-vcu118--tlf_1--345.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/timing.txt"
+      }, {
+        "Result" : "NearSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/axi4mm-vcu118--tlf_1--340.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/axi4mm-vcu118--tlf_1--340.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/340.0/timing.txt"
+      }, {
+        "Result" : "TimingFailure",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/axi4mm-vcu118--tlf_1--335.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/axi4mm-vcu118--tlf_1--335.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/335.0/timing.txt"
+      }, {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/axi4mm-vcu118--tlf_1--330.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/axi4mm-vcu118--tlf_1--330.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/330.0/timing.txt"
+      } ]
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.014998",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 295.84548413000294,
+        "HeuristicValue" : 295845484.1300029
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 350,
+        "HeuristicValue" : 350000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.015094",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 337.81769767303217,
+        "HeuristicValue" : 337817697.67303216
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 340,
+        "HeuristicValue" : 340000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.015141",
+    "Event" : {
+      "Kind" : "RunGenerated",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 294.8917703189232,
+        "HeuristicValue" : 294891770.3189232
+      },
+      "From" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 335,
+        "HeuristicValue" : 335000000
+      },
+      "Utilization" : {
+        "Resources" : {
+          "Slices" : 13565,
+          "LUTs" : 56608,
+          "FlipFlops" : 99438,
+          "DSPs" : 30,
+          "BRAM" : 23
+        },
+        "Available" : {
+          "Slices" : 0,
+          "LUTs" : 0,
+          "FlipFlops" : 0,
+          "DSPs" : 0,
+          "BRAM" : 0
+        }
+      }
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.037954",
+    "Event" : {
+      "Kind" : "RunPruned",
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 315,
+        "HeuristicValue" : 315000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 325,
+        "HeuristicValue" : 325000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 310,
+        "HeuristicValue" : 310000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 305,
+        "HeuristicValue" : 305000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 295,
+        "HeuristicValue" : 295000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 320,
+        "HeuristicValue" : 320000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 275,
+        "HeuristicValue" : 275000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 265,
+        "HeuristicValue" : 265000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 255,
+        "HeuristicValue" : 255000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 300,
+        "HeuristicValue" : 300000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 235,
+        "HeuristicValue" : 235000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 290,
+        "HeuristicValue" : 290000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 295.84548413000294,
+        "HeuristicValue" : 295845484.1300029
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 280,
+        "HeuristicValue" : 280000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 195,
+        "HeuristicValue" : 195000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 270,
+        "HeuristicValue" : 270000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 175,
+        "HeuristicValue" : 175000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 260,
+        "HeuristicValue" : 260000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 155,
+        "HeuristicValue" : 155000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 250,
+        "HeuristicValue" : 249999999.99999997
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 245,
+        "HeuristicValue" : 245000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 240,
+        "HeuristicValue" : 240000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 115,
+        "HeuristicValue" : 115000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 230,
+        "HeuristicValue" : 230000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 225,
+        "HeuristicValue" : 225000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 220,
+        "HeuristicValue" : 220000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 215,
+        "HeuristicValue" : 215000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 294.8917703189232,
+        "HeuristicValue" : 294891770.3189232
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 205,
+        "HeuristicValue" : 205000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 200,
+        "HeuristicValue" : 200000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 190,
+        "HeuristicValue" : 190000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 185,
+        "HeuristicValue" : 185000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 180,
+        "HeuristicValue" : 180000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 65,
+        "HeuristicValue" : 65000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 170,
+        "HeuristicValue" : 170000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 165,
+        "HeuristicValue" : 165000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 160,
+        "HeuristicValue" : 160000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 110,
+        "HeuristicValue" : 110000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 105,
+        "HeuristicValue" : 105000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 100,
+        "HeuristicValue" : 100000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 95,
+        "HeuristicValue" : 95000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 90,
+        "HeuristicValue" : 90000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 85,
+        "HeuristicValue" : 85000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 80,
+        "HeuristicValue" : 80000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 70,
+        "HeuristicValue" : 70000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 75,
+        "HeuristicValue" : 75000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 210,
+        "HeuristicValue" : 210000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 285,
+        "HeuristicValue" : 285000000
+      } ],
+      "Cause" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 330,
+        "HeuristicValue" : 330000000
+      },
+      "Reason" : "WorseThanPrune"
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.037969",
+    "Event" : {
+      "Kind" : "RunPruned",
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 337.81769767303217,
+        "HeuristicValue" : 337817697.67303216
+      } ],
+      "Cause" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 335,
+        "HeuristicValue" : 335000000
+      },
+      "Reason" : "FrequencyPrune"
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.037976",
+    "Event" : {
+      "Kind" : "RunPruned",
+      "Elements" : [ {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 337.81769767303217,
+        "HeuristicValue" : 337817697.67303216
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 315,
+        "HeuristicValue" : 315000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 325,
+        "HeuristicValue" : 325000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 310,
+        "HeuristicValue" : 310000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 305,
+        "HeuristicValue" : 305000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 295,
+        "HeuristicValue" : 295000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 320,
+        "HeuristicValue" : 320000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 275,
+        "HeuristicValue" : 275000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 265,
+        "HeuristicValue" : 265000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 255,
+        "HeuristicValue" : 255000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 300,
+        "HeuristicValue" : 300000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 235,
+        "HeuristicValue" : 235000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 290,
+        "HeuristicValue" : 290000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 295.84548413000294,
+        "HeuristicValue" : 295845484.1300029
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 280,
+        "HeuristicValue" : 280000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 195,
+        "HeuristicValue" : 195000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 270,
+        "HeuristicValue" : 270000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 175,
+        "HeuristicValue" : 175000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 260,
+        "HeuristicValue" : 260000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 155,
+        "HeuristicValue" : 155000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 250,
+        "HeuristicValue" : 249999999.99999997
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 245,
+        "HeuristicValue" : 245000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 240,
+        "HeuristicValue" : 240000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 115,
+        "HeuristicValue" : 115000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 230,
+        "HeuristicValue" : 230000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 225,
+        "HeuristicValue" : 225000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 220,
+        "HeuristicValue" : 220000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 215,
+        "HeuristicValue" : 215000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 294.8917703189232,
+        "HeuristicValue" : 294891770.3189232
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 205,
+        "HeuristicValue" : 205000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 200,
+        "HeuristicValue" : 200000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 50,
+        "HeuristicValue" : 50000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 190,
+        "HeuristicValue" : 190000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 185,
+        "HeuristicValue" : 185000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 180,
+        "HeuristicValue" : 180000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 65,
+        "HeuristicValue" : 65000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 170,
+        "HeuristicValue" : 170000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 165,
+        "HeuristicValue" : 165000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 160,
+        "HeuristicValue" : 160000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 60,
+        "HeuristicValue" : 60000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 150,
+        "HeuristicValue" : 150000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 145,
+        "HeuristicValue" : 145000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 140,
+        "HeuristicValue" : 140000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 135,
+        "HeuristicValue" : 135000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 130,
+        "HeuristicValue" : 130000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 125,
+        "HeuristicValue" : 124999999.99999999
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 120,
+        "HeuristicValue" : 120000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 55,
+        "HeuristicValue" : 55000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 110,
+        "HeuristicValue" : 110000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 105,
+        "HeuristicValue" : 105000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 100,
+        "HeuristicValue" : 100000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 95,
+        "HeuristicValue" : 95000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 90,
+        "HeuristicValue" : 90000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 85,
+        "HeuristicValue" : 85000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 80,
+        "HeuristicValue" : 80000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 70,
+        "HeuristicValue" : 70000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 75,
+        "HeuristicValue" : 75000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 210,
+        "HeuristicValue" : 210000000
+      }, {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 285,
+        "HeuristicValue" : 285000000
+      } ],
+      "Cause" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 345,
+        "HeuristicValue" : 345000000
+      },
+      "Reason" : "WorseThanPrune"
+    }
+  }, {
+    "Timestamp" : "2023-11-27T02:12:19.038451",
+    "Event" : {
+      "Kind" : "ExplorationFinished",
+      "InitialComposition" : {
+        "Composition" : [ {
+          "Kernel" : "tlf",
+          "Count" : 1
+        } ]
+      },
+      "Target" : {
+        "Architecture" : "axi4mm",
+        "Platform" : "vcu118"
+      },
+      "Dimensions" : {
+        "Frequency" : true,
+        "Utilization" : false,
+        "Alternatives" : false
+      },
+      "BatchSize" : 5,
+      "Configuration" : {
+        "ArchDir" : "/opt/tapasco/vivado/arch",
+        "PlatformDir" : "/opt/tapasco/vivado/platform",
+        "KernelDir" : ".",
+        "CoreDir" : "/home/build/llp_tapasco/tapasco_llp_artifacts/simkernels",
+        "CompositionDir" : ".",
+        "SimKernelDir" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd",
+        "Slurm" : false,
+        "Parallel" : true,
+        "Jobs" : [ {
+          "Job" : "DesignSpaceExploration",
+          "Initial Composition" : {
+            "Composition" : [ {
+              "Kernel" : "tlf",
+              "Count" : 1
+            } ]
+          },
+          "Dimensions" : {
+            "Frequency" : true,
+            "Utilization" : false,
+            "Alternatives" : false
+          },
+          "Heuristic" : "Job Throughput",
+          "Batch Size" : 5,
+          "Output Path" : ".",
+          "Platforms" : [ "vcu118" ]
+        } ]
+      },
+      "Base Path" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/.",
+      "Element" : {
+        "Composition" : {
+          "Composition" : [ {
+            "Kernel" : "tlf",
+            "Count" : 1
+          } ]
+        },
+        "Frequency" : 345,
+        "HeuristicValue" : 345000000
+      },
+      "Result" : {
+        "Result" : "RealSuccess",
+        "Bitstream" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/axi4mm-vcu118--tlf_1--345.0.bit",
+        "Log" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/axi4mm-vcu118--tlf_1--345.0.log",
+        "UtilizationReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/utilization.txt",
+        "TimingReport" : "/home/build/synthBin/benchmarks_impact/opt_al16_wideBS/poly_fdtd0/./bd/axi4mm/vcu118/tlf/001/345.0/timing.txt"
+      }
+    }
+  } ]
+}

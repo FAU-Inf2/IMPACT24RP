@@ -1,0 +1,9 @@
+[
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_wideBS/poly_fdtd0/input.cpp:38:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87759},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_wideBS/poly_fdtd0/input.cpp:38:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 429450},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_wideBS/poly_fdtd0/input.cpp:38:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85033},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_wideBS/poly_fdtd0/input.cpp:38:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87781},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_wideBS/poly_fdtd0/input.cpp:38:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 429440},
+{"file": "/home/build/synthBin/benchmarks_impact/opt_al4_wideBS/poly_fdtd0/input.cpp:38:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85015},
+{"file": "./hostBinary", "description": "Whole program execution timing", "type": "Whole", "devid": -1, "runtimeInSec": 3, "runtimeUsec": 104325},
+{}]

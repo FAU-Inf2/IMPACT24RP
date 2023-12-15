@@ -1,0 +1,9 @@
+[
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_jacobi_2d/input.cpp:62:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 88041},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_jacobi_2d/input.cpp:62:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 9, "runtimeUsec": 205041},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_jacobi_2d/input.cpp:62:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85089},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_jacobi_2d/input.cpp:62:1", "description": "Map Clause Transfer", "type": "transfer to/alloc", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 87744},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_jacobi_2d/input.cpp:62:1", "description": "Launch function", "type": "fpga", "devid": 0, "runtimeInSec": 9, "runtimeUsec": 204990},
+{"file": "/home/build/synthBin/benchmarks_impact/base/poly_jacobi_2d/input.cpp:62:1", "description": "Map Clause Transfer Exit", "type": "transfer from", "devid": 0, "runtimeInSec": 0, "runtimeUsec": 85134},
+{"file": "./hostBinary", "description": "Whole program execution timing", "type": "Whole", "devid": -1, "runtimeInSec": 28, "runtimeUsec": 222387},
+{}]
