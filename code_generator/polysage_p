@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+PYTHONPATH="/home/build/polysage/lib:/home/build/polysage/scops" \
+          python3.8 -m cProfile -o prof.prof /home/build/polysage/main.py "$@"

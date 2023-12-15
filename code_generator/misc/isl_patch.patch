@@ -1,0 +1,296 @@
+diff --git a/include/isl/map.h b/include/isl/map.h
+index 12f3c94a..9824d235 100644
+--- a/include/isl/map.h
++++ b/include/isl/map.h
+@@ -128,7 +128,6 @@ __isl_give isl_basic_map *isl_basic_map_nat_universe(
+ 	__isl_take isl_space *space);
+ __isl_give isl_basic_map *isl_basic_map_remove_redundancies(
+ 	__isl_take isl_basic_map *bmap);
+-__isl_export
+ __isl_give isl_map *isl_map_remove_redundancies(__isl_take isl_map *map);
+ __isl_give isl_basic_map *isl_map_simple_hull(__isl_take isl_map *map);
+ __isl_export
+@@ -433,12 +432,6 @@ __isl_give isl_map *isl_map_fix_input_si(__isl_take isl_map *map,
+ 		unsigned input, int value);
+ __isl_give isl_map *isl_map_fix_si(__isl_take isl_map *map,
+ 		enum isl_dim_type type, unsigned pos, int value);
+-__isl_export
+-__isl_give isl_map *isl_map_fix_dom_si(__isl_take isl_map *map,
+-		unsigned pos, int value);
+-__isl_export
+-__isl_give isl_map *isl_map_fix_ran_si(__isl_take isl_map *map,
+-		unsigned pos, int value);
+ __isl_give isl_map *isl_map_fix_val(__isl_take isl_map *map,
+ 	enum isl_dim_type type, unsigned pos, __isl_take isl_val *v);
+ __isl_give isl_map *isl_map_lower_bound_si(__isl_take isl_map *map,
+@@ -744,8 +737,6 @@ __isl_give isl_map *isl_map_align_params(__isl_take isl_map *map,
+ 	__isl_take isl_space *model);
+ __isl_give isl_basic_map *isl_basic_map_drop_unused_params(
+ 	__isl_take isl_basic_map *bmap);
+-
+-__isl_export
+ __isl_give isl_map *isl_map_drop_unused_params(__isl_take isl_map *map);
+ 
+ __isl_give isl_mat *isl_basic_map_equalities_matrix(
+diff --git a/include/isl/polynomial.h b/include/isl/polynomial.h
+index 1d77af47..2d5baaf8 100644
+--- a/include/isl/polynomial.h
++++ b/include/isl/polynomial.h
+@@ -287,10 +287,8 @@ void isl_pw_qpolynomial_print(__isl_keep isl_pw_qpolynomial *pwqp, FILE *out,
+ 	unsigned output_format);
+ void isl_pw_qpolynomial_dump(__isl_keep isl_pw_qpolynomial *pwqp);
+ 
+-__isl_export
+ __isl_give isl_pw_qpolynomial *isl_pw_qpolynomial_coalesce(
+ 	__isl_take isl_pw_qpolynomial *pwqp);
+-__isl_export
+ __isl_give isl_pw_qpolynomial *isl_pw_qpolynomial_gist(
+ 	__isl_take isl_pw_qpolynomial *pwqp, __isl_take isl_set *context);
+ __isl_give isl_pw_qpolynomial *isl_pw_qpolynomial_gist_params(
+@@ -638,10 +636,8 @@ __isl_export
+ __isl_give isl_val *isl_union_pw_qpolynomial_eval(
+ 	__isl_take isl_union_pw_qpolynomial *upwqp, __isl_take isl_point *pnt);
+ 
+-__isl_export
+ __isl_give isl_union_pw_qpolynomial *isl_union_pw_qpolynomial_coalesce(
+ 	__isl_take isl_union_pw_qpolynomial *upwqp);
+-__isl_export
+ __isl_give isl_union_pw_qpolynomial *isl_union_pw_qpolynomial_gist(
+ 	__isl_take isl_union_pw_qpolynomial *upwqp,
+ 	__isl_take isl_union_set *context);
+diff --git a/include/isl/set.h b/include/isl/set.h
+index 3220bd28..5cae86ba 100644
+--- a/include/isl/set.h
++++ b/include/isl/set.h
+@@ -32,7 +32,6 @@ isl_size isl_basic_set_total_dim(__isl_keep const isl_basic_set *bset);
+ isl_size isl_basic_set_dim(__isl_keep isl_basic_set *bset,
+ 				enum isl_dim_type type);
+ 
+-__isl_export
+ isl_size isl_set_n_dim(__isl_keep isl_set *set);
+ isl_size isl_set_n_param(__isl_keep isl_set *set);
+ isl_size isl_set_dim(__isl_keep isl_set *set, enum isl_dim_type type);
+@@ -65,13 +64,8 @@ __isl_give isl_basic_set *isl_basic_set_set_dim_name(
+ 	enum isl_dim_type type, unsigned pos, const char *s);
+ isl_bool isl_set_has_dim_name(__isl_keep isl_set *set,
+ 	enum isl_dim_type type, unsigned pos);
+-
+ const char *isl_set_get_dim_name(__isl_keep isl_set *set,
+ 	enum isl_dim_type type, unsigned pos);
+-
+-const char *isl_set_get_in_dim_name(__isl_keep isl_set *set,
+-                                      unsigned pos);
+-
+ __isl_give isl_set *isl_set_set_dim_name(__isl_take isl_set *set,
+ 	enum isl_dim_type type, unsigned pos, const char *s);
+ 
+@@ -135,7 +129,6 @@ __isl_give isl_basic_set *isl_basic_set_detect_equalities(
+ 						__isl_take isl_basic_set *bset);
+ __isl_give isl_basic_set *isl_basic_set_remove_redundancies(
+ 	__isl_take isl_basic_set *bset);
+-__isl_export
+ __isl_give isl_set *isl_set_remove_redundancies(__isl_take isl_set *set);
+ __isl_give isl_basic_set *isl_basic_set_list_intersect(
+ 	__isl_take struct isl_basic_set_list *list);
+@@ -359,7 +352,6 @@ __isl_give isl_set *isl_set_preimage_multi_pw_aff(__isl_take isl_set *set,
+ 	__isl_take isl_multi_pw_aff *mpa);
+ __isl_give isl_set *isl_set_fix_val(__isl_take isl_set *set,
+ 	enum isl_dim_type type, unsigned pos, __isl_take isl_val *v);
+-__isl_export
+ __isl_give isl_set *isl_set_fix_dim_si(__isl_take isl_set *set,
+ 		unsigned dim, int value);
+ __isl_give isl_basic_set *isl_basic_set_insert_dims(
+@@ -386,14 +378,8 @@ __isl_give isl_set *isl_set_project_out_param_id(__isl_take isl_set *set,
+ __isl_overload
+ __isl_give isl_set *isl_set_project_out_param_id_list(__isl_take isl_set *set,
+ 	__isl_take isl_id_list *list);
+-
+ __isl_give isl_set *isl_set_project_out(__isl_take isl_set *set,
+ 		enum isl_dim_type type, unsigned first, unsigned n);
+-
+-__isl_export
+-__isl_give isl_set *isl_set_project_out_set_dims(
+-                __isl_take isl_set *set, unsigned first, unsigned n);
+-
+ __isl_export
+ __isl_give isl_set *isl_set_project_out_all_params(__isl_take isl_set *set);
+ __isl_give isl_map *isl_set_project_onto_map(__isl_take isl_set *set,
+@@ -548,7 +534,6 @@ __isl_give isl_set *isl_set_box_from_points(__isl_take isl_point *pnt1,
+ 	__isl_take isl_point *pnt2);
+ 
+ __isl_give isl_basic_set *isl_basic_set_lift(__isl_take isl_basic_set *bset);
+-__isl_export
+ __isl_give isl_set *isl_set_lift(__isl_take isl_set *set);
+ 
+ __isl_give isl_map *isl_set_lex_le_set(__isl_take isl_set *set1,
+@@ -564,12 +549,10 @@ int isl_set_size(__isl_keep isl_set *set);
+ 
+ __isl_give isl_basic_set *isl_basic_set_align_params(
+ 	__isl_take isl_basic_set *bset, __isl_take isl_space *model);
+-__isl_export
+ __isl_give isl_set *isl_set_align_params(__isl_take isl_set *set,
+ 	__isl_take isl_space *model);
+ __isl_give isl_basic_set *isl_basic_set_drop_unused_params(
+ 	__isl_take isl_basic_set *bset);
+-__isl_export
+ __isl_give isl_set *isl_set_drop_unused_params(__isl_take isl_set *set);
+ 
+ __isl_give isl_mat *isl_basic_set_equalities_matrix(
+diff --git a/include/isl/space.h b/include/isl/space.h
+index 9eb9eace..22acd376 100644
+--- a/include/isl/space.h
++++ b/include/isl/space.h
+@@ -76,12 +76,6 @@ isl_bool isl_space_has_dim_id(__isl_keep isl_space *space,
+ __isl_give isl_id *isl_space_get_dim_id(__isl_keep isl_space *space,
+ 	enum isl_dim_type type, unsigned pos);
+ 
+-  // Added to generate bindings.
+-__isl_export isl_id *isl_space_get_out_dim_id(__isl_keep isl_space *space,
+-                                              unsigned pos);
+-__isl_export isl_id *isl_space_get_in_dim_id(__isl_keep isl_space *space,
+-                                             unsigned pos);
+-
+ int isl_space_find_dim_by_id(__isl_keep isl_space *space,
+ 	enum isl_dim_type type, __isl_keep isl_id *id);
+ int isl_space_find_dim_by_name(__isl_keep isl_space *space,
+@@ -126,7 +120,6 @@ __isl_give isl_space *isl_space_range_factor_range(
+ 	__isl_take isl_space *space);
+ __isl_export
+ __isl_give isl_space *isl_space_map_from_set(__isl_take isl_space *space);
+-__isl_export
+ __isl_give isl_space *isl_space_map_from_domain_and_range(
+ 	__isl_take isl_space *domain, __isl_take isl_space *range);
+ __isl_export
+diff --git a/include/isl/union_map.h b/include/isl/union_map.h
+index 7741f9ea..afcc21cd 100644
+--- a/include/isl/union_map.h
++++ b/include/isl/union_map.h
+@@ -229,7 +229,6 @@ __isl_give isl_union_map *isl_union_map_detect_equalities(
+ 	__isl_take isl_union_map *umap);
+ __isl_export
+ __isl_give isl_union_set *isl_union_map_deltas(__isl_take isl_union_map *umap);
+-__isl_export
+ __isl_give isl_union_map *isl_union_map_deltas_map(
+ 	__isl_take isl_union_map *umap);
+ __isl_export
+@@ -308,16 +307,12 @@ __isl_give isl_union_map *isl_union_map_power(__isl_take isl_union_map *umap,
+ __isl_give isl_union_map *isl_union_map_transitive_closure(
+ 	__isl_take isl_union_map *umap, isl_bool *exact);
+ 
+-__isl_export
+ __isl_give isl_union_map *isl_union_map_lex_lt_union_map(
+ 	__isl_take isl_union_map *umap1, __isl_take isl_union_map *umap2);
+-__isl_export
+ __isl_give isl_union_map *isl_union_map_lex_le_union_map(
+ 	__isl_take isl_union_map *umap1, __isl_take isl_union_map *umap2);
+-__isl_export
+ __isl_give isl_union_map *isl_union_map_lex_gt_union_map(
+ 	__isl_take isl_union_map *umap1, __isl_take isl_union_map *umap2);
+-__isl_export
+ __isl_give isl_union_map *isl_union_map_lex_ge_union_map(
+ 	__isl_take isl_union_map *umap1, __isl_take isl_union_map *umap2);
+ 
+diff --git a/include/isl/union_set.h b/include/isl/union_set.h
+index 10ee40ad..61725db6 100644
+--- a/include/isl/union_set.h
++++ b/include/isl/union_set.h
+@@ -161,16 +161,12 @@ __isl_give isl_union_set *isl_union_set_from_point(__isl_take isl_point *pnt);
+ 
+ __isl_give isl_union_set *isl_union_set_lift(__isl_take isl_union_set *uset);
+ 
+-__isl_export
+ __isl_give isl_union_map *isl_union_set_lex_lt_union_set(
+ 	__isl_take isl_union_set *uset1, __isl_take isl_union_set *uset2);
+-__isl_export
+ __isl_give isl_union_map *isl_union_set_lex_le_union_set(
+ 	__isl_take isl_union_set *uset1, __isl_take isl_union_set *uset2);
+-__isl_export
+ __isl_give isl_union_map *isl_union_set_lex_gt_union_set(
+ 	__isl_take isl_union_set *uset1, __isl_take isl_union_set *uset2);
+-__isl_export
+ __isl_give isl_union_map *isl_union_set_lex_ge_union_set(
+ 	__isl_take isl_union_set *uset1, __isl_take isl_union_set *uset2);
+ 
+diff --git a/isl_map.c b/isl_map.c
+index b220e36d..9fe630cd 100644
+--- a/isl_map.c
++++ b/isl_map.c
+@@ -985,7 +985,6 @@ __isl_give isl_id *isl_set_get_dim_id(__isl_keep isl_set *set,
+ 	return isl_map_get_dim_id(set, type, pos);
+ }
+ 
+-
+ __isl_give isl_map *isl_map_set_dim_id(__isl_take isl_map *map,
+ 	enum isl_dim_type type, unsigned pos, __isl_take isl_id *id)
+ {
+@@ -4595,12 +4594,6 @@ __isl_give isl_set *isl_set_project_out(__isl_take isl_set *set,
+ 						type, first, n));
+ }
+ 
+-// adapter function for python interfce
+-__isl_give isl_set *isl_set_project_out_set_dims(
+-                __isl_take isl_set *set, unsigned first, unsigned n) {
+-  return isl_set_project_out(set, isl_dim_set, first, n);
+-}
+-
+ /* If "set" involves a parameter with identifier "id",
+  * then turn it into an existentially quantified variable.
+  */
+@@ -6597,18 +6590,6 @@ error:
+ 	return NULL;
+ }
+ 
+-__isl_export
+-__isl_give isl_map *isl_map_fix_dom_si(__isl_take isl_map *map,
+-                                       unsigned pos, int value) {
+-  return isl_map_fix_si(map, isl_dim_in, pos, value);
+-}
+-
+-__isl_export
+-__isl_give isl_map *isl_map_fix_ran_si(__isl_take isl_map *map,
+-                                       unsigned pos, int value) {
+-  return isl_map_fix_si(map, isl_dim_out, pos, value);
+-}
+-
+ __isl_give isl_map *isl_map_fix_si(__isl_take isl_map *map,
+ 		enum isl_dim_type type, unsigned pos, int value)
+ {
+diff --git a/isl_space.c b/isl_space.c
+index d6985916..fd67a89c 100644
+--- a/isl_space.c
++++ b/isl_space.c
+@@ -783,18 +783,6 @@ __isl_give isl_id *isl_space_get_dim_id(__isl_keep isl_space *space,
+ 	return isl_id_copy(get_id(space, type, pos));
+ }
+ 
+-__isl_export
+-__isl_give isl_id *isl_space_get_out_dim_id(__isl_keep isl_space *space,
+-                                              unsigned pos) {
+-  return isl_space_get_dim_id(space, isl_dim_out, pos);
+-}
+-
+-__isl_export
+-__isl_give isl_id *isl_space_get_in_dim_id(__isl_keep isl_space *space,
+-                                             unsigned pos) {
+-  return isl_space_get_dim_id(space, isl_dim_in, pos);
+-}
+-
+ __isl_give isl_space *isl_space_set_tuple_name(__isl_take isl_space *space,
+ 	enum isl_dim_type type, const char *s)
+ {
+diff --git a/m4/ax_detect_git_head.m4 b/m4/ax_detect_git_head.m4
+index 42c339ff..31a6fe32 100644
+--- a/m4/ax_detect_git_head.m4
++++ b/m4/ax_detect_git_head.m4
+@@ -2,10 +2,7 @@ AC_DEFUN([AX_DETECT_GIT_HEAD], [
+ 	AC_SUBST(GIT_HEAD_ID)
+ 	AC_SUBST(GIT_HEAD)
+ 	AC_SUBST(GIT_HEAD_VERSION)
+-        if ! git status; then
+-                GIT_HEAD_ID="UNKNOWN"
+-                GIT_HEAD_VERSION="$GIT_HEAD_ID"
+-	elif test -f $srcdir/.git; then
++	if test -f $srcdir/.git; then
+ 		gitdir=`GIT_DIR=$srcdir/.git git rev-parse --git-dir`
+ 		GIT_HEAD="$gitdir/index"
+ 		GIT_REPO="$gitdir"
