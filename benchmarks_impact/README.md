@@ -18,3 +18,23 @@ the command `make -f driver.mk hostBinary`
 and `make -f driver.mk bitstream` in the
 ORKA Docker container to generate the host
 and the FPGA portion of the program.
+
+To generate the benchmark sets, we used
+the helper scripts `generate.sh`. The
+shell function `generate` contains
+the three necessary calls to polysage.
+The command line flags are described
+in `../code_generator/README.md`.
+
+The test drivers `input.cpp` use a custom
+memory allocator (as defined in
+`#include "orka_mem_alloc.hpp"`) to prepare
+the memory region that ORKA-HPC ships to the
+FPGA during offloading. It makes sure, that
+the memory region is big enough even after
+the iteration padding, that the polysage applies.
+The header lives in the
+ORKA-HPC [compiler](https://cs2-gitlab.cs.fau.de/orka/compiler)
+repo, but it is also included for convenience under
+`misc/orka_mem_alloc.hpp`.
+
