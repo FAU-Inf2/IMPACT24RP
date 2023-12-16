@@ -41,6 +41,10 @@ installed at `/usr/lib`.
 
 ## Usage
 
+To generate optimized HLS code for
+the SCoP in the file `<scopfile>`, you can use the command
+`polysage -S <scopfile> -O foo -G -C orka`.
+
 Polysage parses the following command line flags.
 
 - `-S <scopfile>`: The Scop file. See `scops` for examples.
