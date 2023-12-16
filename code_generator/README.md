@@ -1,10 +1,9 @@
-# README
+# Polysage
 
 ## Prerequisites
 
-Our code generator is written in Python 3.8 and
-must run in an environment that provides the
-following:
+The polysage code generator is written in Python 3.8 and
+must run in an environment that provides the following:
 
 - The ISL Library (with python bindings)
 - The Barvinok Library (with python bindings)
